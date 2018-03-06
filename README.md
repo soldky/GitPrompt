@@ -58,7 +58,7 @@ set_color()
     echo -e "${WHITE_BOLD}"
   fi
 }
-export PS1="\n${WHITE_BOLD}\u : ${CYAN_BOLD}[\w] \$(set_color)\$(parse_git_branch) ${WHITE_BOLD}\n▸ ${RESET}"```
+export PS1="\n${WHITE_BOLD}\u : ${CYAN_BOLD}[\w] \$(set_color)\$(parse_git_branch) ${WHITE_BOLD}\n▸ ${RESET}" ```
 
 ## Colors
 - Red : Non tracked files
