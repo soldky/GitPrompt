@@ -1,5 +1,11 @@
 # Git Prompt
 
+## Colors
+- Red : Non tracked files
+- Yellow : Non commit
+- Purple : Conflict
+- Green : All is good
+
 ```# PROMPT COLOURS
 BLACK='\e[0;30m'      # Black - Regular
 RED='\e[0;31m'        # Red
@@ -59,9 +65,3 @@ set_color()
   fi
 }
 export PS1="\n${WHITE_BOLD}\u : ${CYAN_BOLD}[\w] \$(set_color)\$(parse_git_branch) ${WHITE_BOLD}\n▸ ${RESET}" ```
-
-## Colors
-- Red : Non tracked files
-- Yellow : Non commit
-- Purple : Conflict
-- Green : All is good
